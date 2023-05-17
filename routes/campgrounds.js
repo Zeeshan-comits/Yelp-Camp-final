@@ -5,7 +5,7 @@ const Campground = require('../models/campground')
 const campground = require('../controllers/campground')
 const { isLoggedIn, validateCampground, isAuthor } = require('../middleware')
 const multer = require('multer')
-const { storage } = require('../cloudinary') // why have'nt we mentioned '/index' here
+const { storage } = require('../cloudinary')
 const upload = multer({ storage })
 
 
